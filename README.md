@@ -1,1 +1,1 @@
-Building google homepageopen
+Building google homepage

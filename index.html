@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <article>
+    <style>
+       html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+        }
+        article {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            margin: 0px;
+        }
+        main {
+            flex-grow: 1; 
+            padding-top: 5%;          
+        }
+        header, main, footer {
+            flex-shrink: 0;
+        }
+    </style>
+    <header>
+        <style>
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 6px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:#222;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+font-family: arial,sans-serif;
+cursor: pointer;
+}
+
+li a:hover {
+    text-decoration: underline;}
+.about-store {
+    float: left;
+}
+.mail-images {
+float:right
+}
+#apps {
+    padding: 11px 16px;
+    margin: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    border: 0px;
+}
+        </style>
+        <ul class="about-store">
+            <li><a href="about.google">About</a></li>
+            <li><a href="store.google.com">Store</a> </li>
+        </ul>
+        <ul class="mail-images">
+            <li><a href="mail.google.com">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li><button id="apps" style="font-size:24px"><i class="material-icons">apps</i></button></li>
+            <li><a id="my-logo" href="https://github.com/IJCHaslam"><img id="picture" src="https://avatars.githubusercontent.com/u/82887449?v=4" alt="My profile picture"></a></li>
+        </ul>
+    </header>
+   <main>
+    
+        <style>
+            #my-logo {
+                padding-top: 7px;
+            }
+            #picture {
+                border-radius: 50%;
+                height: 32px;
+                width: 32px;
+                padding-top: 0px;
+            }
+            #picture-link {
+                padding-top: 5px;
+            }
+            img {
+                height:92px; 
+                width:272px; 
+                max-height:100%;
+                max-width:100%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                }
+            #google-logo {
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+        </style>
+    <div id="google-logo">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="googlelogo">
+    </div>
+    <div>
+        <style>
+            form {
+                width: 100%;
+                height: 100%;
+                padding: 20px 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            button {
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;
+                }
+            button:hover {
+                box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+                background-color: #f8f9fa;
+                border: 1px solid #dadce0;
+                color: #202124;
+            }
+            .search {
+                width: 487px;
+                height: 34px;
+                border-radius: 24px;
+                border: 1px solid #dfe1e5;
+          }
+        </style>
+        <form action="/search" method="GET" role="search">
+            <input class="search" type="text">
+         <div>
+            <button type="submit">Google Search</button>
+            <button type="submit">I'm Feeling Lucky</button>
+         </div>
+    </div>
+</form>
+</main>
+<style>
+.country {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color:rgb(242 242 242);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    padding: 7px 18px;
+    border-bottom: 1px solid #dadce0;
+}
+</style>
+<div class="country">
+    <p>United Kingdom</p>
+</div>
+<footer>
+    <style>
+        footer {
+            background-color: rgb(242 242 242);
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: flex-end;
+            flex: 0;
+            flex-wrap: wrap;
+        }
+        .sus {
+            display: flex;
+            justify-content: center;
+        }
+        #sus-logo {
+            height: 14px;
+            width: 14px;
+            margin-right: 6px;
+            display: inline;
+        }
+    </style>
+    <div>
+    <ul class="footer-1">
+        <li><a href="https://ads.google.com/">Advertising</a></li>
+        <li><a href="https://smallbusiness.withgoogle.com/">Business</a></li>
+        <li><a href="https://www.google.com/search/howsearchworks">How Search works</a></li>
+    </ul>
+    </div>
+    <div>
+    <ul class="sus">
+        <li><a href="https://sustainability.google/"><img id="sus-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"> Carbon neutral since 2007</a></li>
+    </ul>
+    </div>
+    <div>
+    <ul class="footer-2">
+        <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+        <li><a href="https://policies.google.com/terms">Terms</a></li>
+        <li><a href= "https://www.google.com/preferences">Settings</a></li>
+    </ul>
+    </div>
+</footer>
+</article>
+</body>
+
+
+</html>
